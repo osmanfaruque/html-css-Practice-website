@@ -20,7 +20,7 @@
         <a href="Photos.html">Photos</a>
         <a href="connectme.html">Connect Me</a>
     </nav>
-    <div>
+    <div class="contact-box">
         <h2>Contact Me</h2>
 
         <!-- Dropdown Box -->
@@ -32,40 +32,30 @@
             <option value="x">X (formerly Twitter)</option>
             <option value="mail">Email</option>
         </select>
-        <br><br>
-
         <form action="#" method="post">
             <label for="name">Name:</label>
             <br>
-            <input type="text" id="name" name="name" required>
-            <br><br>
+            <input type="text" id="name" name="name" required><br>
 
             <label>Gender:</label>
-            <br>
-            <input type="radio" id="male" name="gender" value="male">
+
+            <input type="radio" id="male" name="gender" value="male" style="width: 14px;">
             <label for="male">Male</label>
-            <br>
-            <input type="radio" id="female" name="gender" value="female">
+            <input type="radio" id="female" name="gender" value="female" style="width: 15px;">
             <label for="female">Female</label>
             <br>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label>
-            <br><br>
-
             <label for="mail">Mail:</label>
             <br>
-            <input type="email" id="mail" name="mail" required>
-            <br><br>
-
+            <input type="email" id="mail" name="mail" required="">
+            <br>
             <label for="message">What do you want to say:</label>
             <br>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <textarea id="message" name="message" rows="5" required=""></textarea>
             <br><br>
-
-            <label for="shoutout">Do you want your message to be shouted out by me?</label>
+            <label for="shoutout" style="width: 50%; height: 100%;">Want your message to be shouted out by me?</label>
             <br>
-            <input type="checkbox" id="shoutout" name="shoutout" value="yes">
-            <label for="shoutout">Yes, I want a shoutout!</label>
+            <input type="checkbox" id="shoutout" name="shoutout" value="yes" style="width: 13px;">
+            <label for="shoutout">Yes!</label>
             <br><br>
 
             <button type="submit">Submit</button>
