@@ -1,0 +1,140 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background as fallback */
+    color: #333;
+    line-height: 1.6;
+    background-image: url('trip_image/sonadia_photo/s_p_8.jpg'); /* Path to your high-res image */
+    background-size: cover; /* Ensure image covers the area */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keeps the image fixed during scroll */
+}
+
+
+/* Header Section */
+header {
+    text-align: center;
+    color: white;
+    padding: 2rem 0;
+    background-image: url('trip_image/sonadia_photo/s_p_8.jpg'); /* Path to your high-res image */
+    background-size: cover; /* Ensure image covers the area */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keeps the image fixed during scroll */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin: 0.5rem 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex; /* Distribute items evenly */
+    justify-content: space-between; /* Equal spacing */
+    background: #343a40; /* Dark background */
+    margin: 2rem auto; /* Centering the navbar */
+    max-width: 800px; /* Restrict maximum width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure buttons fit inside rounded border */
+}
+
+nav a {
+    flex: 1; /* Make all links equal in width */
+    text-align: center; /* Center text inside each section */
+    text-decoration: none; /* Remove default underline */
+    color: #ffffff; /* White text */
+    font-size: 1rem; /* Font size */
+    padding: 0.75rem 0; /* Vertical padding for button height */
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+    background: #343a40; /* Match navbar background */
+}
+
+nav a:hover {
+    background: #007BFF; /* Change background color on hover */
+    color: #ffffff; /* Ensure text remains white */
+}
+
+
+/* Section Styling */
+div {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1.5rem;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Headings */
+div h2 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+div p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+/* Image Styling */
+div img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Photo Preview Section */
+.photo-preview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.photo-preview img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Button Style */
+button {
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    background: #007BFF;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
