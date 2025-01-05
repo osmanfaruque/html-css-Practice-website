@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,63 +8,68 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <header>
-        <h2>This Is Me</h2>
+        <h2 class="Blog">This Is Me</h2>
         <h1>Rakib Md Osman Faruque</h1>
         <h3> And This is my Trip to Sonadia</h3>
+        <nav>
+            <a href="Homepage.html">Home page</a>
+            <a href="aboutsonadia.html">About Sonadia</a>
+            <a href="food.html">Sonadia Food</a>
+            <a href="Photos.html">Photos</a>
+            <a href="connectme.html">Connect Me</a>
+        </nav>
     </header>
-    <nav>
-        <a href="Homepage.html">Home page</a>
-        <a href="aboutsonadia.html">About Sonadia</a>
-        <a href="food.html">Sonadia Food</a>
-        <a href="Photos.html">Photos</a>
-        <a href="connectme.html">Connect Me</a>
-    </nav>
-    <div class="contact-box">
-        <h2>Contact Me</h2>
+    <main>
+        <div class="contact-box">
+            <h2>Contact Me</h2>
 
-        <!-- Dropdown Box -->
-        <label for="connect">How do you want to connect with me?</label>
-        <br>
-        <select id="connect" name="connect">
-            <option value="facebook">Facebook</option>
-            <option value="linkedin">LinkedIn</option>
-            <option value="x">X (formerly Twitter)</option>
-            <option value="mail">Email</option>
-        </select>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
+            <!-- Dropdown Box -->
+            <label for="connect">How do you want to connect with me?</label>
             <br>
-            <input type="text" id="name" name="name" required><br>
+            <select id="connect" name="connect">
+                <option value="facebook">Facebook</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="x">X (formerly Twitter)</option>
+                <option value="mail">Email</option>
+            </select>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="name" required><br>
 
-            <label>Gender:</label>
+                <label>Gender:</label>
 
-            <input type="radio" id="male" name="gender" value="male" style="width: 14px;">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female" style="width: 15px;">
-            <label for="female">Female</label>
-            <br>
-            <label for="mail">Mail:</label>
-            <br>
-            <input type="email" id="mail" name="mail" required="">
-            <br>
-            <label for="message">What do you want to say:</label>
-            <br>
-            <textarea id="message" name="message" rows="5" required=""></textarea>
-            <br><br>
-            <label for="shoutout" style="width: 50%; height: 100%;">Want your message to be shouted out by me?</label>
-            <br>
-            <input type="checkbox" id="shoutout" name="shoutout" value="yes" style="width: 13px;">
-            <label for="shoutout">Yes!</label>
-            <br><br>
+                <input type="radio" id="male" name="gender" value="male" style="width: 14px;">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" style="width: 15px;">
+                <label for="female">Female</label>
+                <br>
+                <label for="mail">Mail:</label>
+                <br>
+                <input type="email" id="mail" name="mail" required="">
+                <br>
+                <label for="message">What do you want to say:</label>
+                <br>
+                <textarea id="message" name="message" rows="5" required=""></textarea>
+                <br><br>
+                <label for="shoutout" style="width: 50%; height: 100%;">Want your message to be shouted out by
+                    me?</label>
+                <br>
+                <input type="checkbox" id="shoutout" name="shoutout" value="yes" style="width: 13px;">
+                <label for="shoutout">Yes!</label>
+                <br><br>
 
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
 
     <footer>
-        <h6> All rights reserved by Osman Faruque</h6>       
-</footer>
+        <h6> All rights reserved by Osman Faruque</h6>
+    </footer>
 </body>
+
 </html>
